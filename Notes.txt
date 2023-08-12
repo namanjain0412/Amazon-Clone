@@ -1,5 +1,103 @@
----------Project Objectives-------
-Replicate the visual appearance of the Amazon website.
-Practice creating layouts using HTML and styling with CSS.
-Showcase product listings with appropriate information.
-Implement responsive design for different devices.
+// AMAZON CLONE BY USING HTML AND CSS
+                                                                -- Made By Naman Jain
+
+POINTS TO BE FOLLOWED 
+
+	FONT AWESOME - free icon like heart, dollar , heart pulse  for html webpage.
+	FOR MAKING CLONE - we copy and save as images in same folder (project folder)
+	USE CDN FONT-AWESOME -- Cdnjs Is A Website -- contain many libraries and I have to use font-awesome library 
+	CONTENT DELIVERY NETWORK -- CDN is like a super-fast internet helper that brings websites and videos (which is already stored in cloud) closer to you.
+
+
+IN HTML 
+ 	Analyze The Original Website
+ 	Start With The Basic HTML Structure
+ 	Replicate Header And Navigation
+ 	Study the original website's header and navigation menu.
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <!-- Add more navigation items -->
+        </ul>
+    </nav>
+</header>
+
+
+ 	Clone Content Sections:
+Identify the different content sections of the original website (e.g., About, Services, Contact).
+<section id="about">
+    <!-- About content goes here -->
+</section>
+<section id="services">
+    <!-- Services content goes here -->
+</section>
+ 	Add Images and Media
+<img src="image.jpg" alt="Description of the image">
+ 	Apply Styles:
+In your CSS file, replicate the styles used in the original website. This includes fonts, colors, spacing, and layout. You might need to use developer tools to inspect the original website's styles.
+ 	Fine-Tune Responsive Design:
+Apply responsive design techniques using media queries to ensure your clone looks good on different screen sizes.
+
+
+IN CSS
+ border: border-box; 
+    /* // jitni bhi height and width set kari hai usme hi border area count ho */
+
+.logo{
+    background-image: url("amazon_logo.png");
+}
+
+.navbar{
+    height: 60px ;
+    background-color: #0f1111;
+    color: white;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+"Background-size: cover" in CSS scales the background image to cover the entire container while maintaining its aspect ratio.
+"background-size: cover" in CSS makes sure that a background image stretches or shrinks to fully cover the entire background area of an element, while maintaining its aspect ratio. It might crop the image if necessary.
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+
+.navbar{
+    height: 60px ;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+
+DISPLAY FLEX – 
+"display: flex" in CSS is used to create a flexible layout for elements inside a container. It lets you arrange items horizontally or vertically with automatic spacing and alignment. // By default - Horizontally
+
+Font size -----
+In CSS, "rem" stands for "root em." It's a unit of measurement that helps control the size of elements in a web page. The size is based on the font size of the root (usually the HTML) element.
+ So, 1rem is equal to the font size of the root element. If the root element's font size is 16px, then 1rem is also 16px. It's a flexible way to make sure things like text and spacing scale well across the whole page.
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    
+}
+
+  display: flex;
+    align-items: center;
+
+"display: flex;" turns the selected container into a flexible layout, allowing its child elements to be arranged horizontally or vertically.
+ "align-items: center;" centers those child elements vertically within the container.
+
+   justify-content: space-evenly;
+
+"justify-content: space-evenly;" arranges items inside a container with equal space between them and the container's edges. It creates a balanced and even layout.
