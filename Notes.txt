@@ -1,0 +1,5 @@
+---------Project Objectives-------
+Replicate the visual appearance of the Amazon website.
+Practice creating layouts using HTML and styling with CSS.
+Showcase product listings with appropriate information.
+Implement responsive design for different devices.
